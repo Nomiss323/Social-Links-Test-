@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    height: 540px;
+    width: 300px;
+    border-radius: 5%;
+
+}
+
+#container img{ 
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+}
+
+#container h2{
+    font-weight: 600;
+    color:white;
+    margin-bottom: 0px;
+
+}
+
+.ftG{
+    color: hsl(75, 94%, 57%);
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.ftL{
+    margin-top: 8px;
+    color: white;
+    font-weight: 400;
+}
+
+
+#buttons {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+#buttons a{
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+}
+
+
+
+.bt1, .bt2, .bt3, .bt4, .bt5 {
+    color: white;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    width: 280px;
+    padding: 15px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.bt1:hover {
+    background-color: hsl(75, 94%, 57%); 
+    color: black;
+
+}
+.bt2:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
+.bt3:hover {
+    background-color: hsl(75, 94%, 57%); 
+    color: black;
+
+}
+.bt4:hover {
+    background-color: hsl(75, 94%, 57%); 
+    color: black;
+
+}
+.bt5:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
+.attribution{
+    margin-top: 50px;
+    font-size: 11px; text-align: center;
+    color: white;
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+
+}
